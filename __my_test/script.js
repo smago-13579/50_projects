@@ -23,3 +23,8 @@ car.color = 'red';
 car.owner = 'Mike';
 two.innerHTML = car.owner;
 
+let x = 100;
+let y = 100;
+let z = typeof x;
+three.innerHTML = `x: ${x}; z: ${z}`;
+
