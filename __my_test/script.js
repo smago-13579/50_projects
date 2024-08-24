@@ -21,10 +21,13 @@ one.innerHTML = car.type;
 
 car.color = 'red';
 car.owner = 'Mike';
-two.innerHTML = car.owner;
+two.innerHTML = `${car.color} ${car.owner}`;
 
 let x = 100;
 let y = 100;
 let z = typeof x;
+let big = BigInt(101001010101);
 three.innerHTML = `x: ${x}; z: ${z}`;
+three.innerHTML = `x: ${typeof big}`;
+
 
